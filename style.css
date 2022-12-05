@@ -1,0 +1,154 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .3s ease-in;
+}
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #50C878;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    font-size: 13px;
+    color: rgba(0,0,0,0.8);
+}
+img {
+    will-change: transform;
+    transition: transform .3s ease;
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 35px -10px black;
+}
+nav.green {
+    background: #1abd9a;
+}
+.logo {
+    display: inline-block;
+    padding: 20px;
+    font-family: Anurati, Arial, sans-serif;
+    font-weight: bold;
+    color: #2e4453;
+}
+span.green {
+    color: #50C878;
+}
+.menu {
+    padding: 20px;
+    float: right;
+}
+.menu > a {
+    padding: inherit;
+    color: #2e4453;
+}
+.menu > a:hover {
+    text-decoration: none;
+    color: #50C878;
+}
+header {
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(36, 40, 46, 0.8);
+}
+header:before {
+    background: url(https://img3.goodfon.ru/original/2560x1440/d/96/samsung-galaxy-sv.jpg) no-repeat center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: length_x length_y;
+    content: ' ';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+}
+header h3 {
+    padding: 10px 200px;
+}
+
+.works {
+    border-top: 1px solid #dfdfdf;
+    background: #f7f7f7;
+    height: auto;
+    padding: 40px;
+}
+.works h2 {
+    margin-bottom: 40px;
+}
+.cnt {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+.work {
+    max-width: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+.img {
+    max-width: inherit;
+    height: 200px;
+}
+.work img {
+    max-width: inherit;
+    height: inherit;
+}
+.info {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 25px -8px black;
+    border-radius: 0 0 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.info p {
+    padding: 10px;
+    max-height: 66px;
+}
+.abtme {
+    background: #f7f7f7;
+    height: 700px;
+    padding: 40px;
+}
+
+
+
+.h2pa {
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 20px;
+    background: #1abd9a;
+    box-shadow: inset 0 10px 25px -18px black;
+    color: white;
+}
